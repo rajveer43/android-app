@@ -99,5 +99,4 @@ public class PDFUtils {
         view.draw(canvas);
         return returnedBitmap;
     }
-
 }
