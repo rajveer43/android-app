@@ -9,6 +9,18 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
+
+
+
+
+
+
+
+
+
+
+
 public class NewBillCustomerActivity extends AppCompatActivity {
 
     private EditText customerNameEt;

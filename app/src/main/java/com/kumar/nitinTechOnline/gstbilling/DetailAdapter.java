@@ -14,9 +14,19 @@ import android.widget.TextView;
 import com.kumar.nitinTechOnline.gstbilling.data.GSTBillingContract;
 import com.kumar.nitinTechOnline.gstbilling.utils.PriceUtils;
 
-/**
- * Created by Ajay on 7/24/2017.
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public class DetailAdapter extends RecyclerView.Adapter<DetailAdapter.DetailHolder> {
 

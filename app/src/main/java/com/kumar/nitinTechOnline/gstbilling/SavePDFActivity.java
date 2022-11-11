@@ -21,9 +21,20 @@ import com.kumar.nitinTechOnline.gstbilling.data.GSTBillingContract;
 import com.kumar.nitinTechOnline.gstbilling.utils.NumberToWord;
 import com.kumar.nitinTechOnline.gstbilling.utils.PDFUtils;
 
+
+
+
+
+
+
+
 public class SavePDFActivity extends AppCompatActivity {
 
     private static Activity thisActivity;
+
+
+
+
 
     private static final int MAX_ITEMS_PER_PAGE = 32;
     private static Cursor pdfCursor;
@@ -55,6 +66,21 @@ public class SavePDFActivity extends AppCompatActivity {
     private static TextView billPageNumber;
 
     private RecyclerView pdfRecyclerView;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private static SavePDFAdapter adapter;
 
     private static ContentResolver contentResolver;
@@ -63,6 +89,36 @@ public class SavePDFActivity extends AppCompatActivity {
 
     private static String inr;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

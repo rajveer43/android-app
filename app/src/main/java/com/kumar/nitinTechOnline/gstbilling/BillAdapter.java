@@ -119,6 +119,17 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.BillHolder> {
 
         }
 
+
+
+
+
+
+
+
+
+
+        
+
         @Override
         public void onClick(View v) {
             clickListener.onBillItemClick(

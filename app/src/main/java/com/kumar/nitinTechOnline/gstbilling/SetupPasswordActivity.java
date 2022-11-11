@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
+
+
 public class SetupPasswordActivity extends AppCompatActivity {
 
     EditText businessName;
@@ -19,6 +22,12 @@ public class SetupPasswordActivity extends AppCompatActivity {
     EditText confirmPass;
     Button setupPass;
 
+
+
+
+
+
+    
     public static final String SETUP_BUSINESS_NAME_KEY = "setup-business-name-key";
     public static final String SETUP_BUSINESS_ADDRESS_KEY = "setup-business-address-key";
     public static final String SETUP_BUSINESS_CONTACT_KEY = "setup-business-contact-key";

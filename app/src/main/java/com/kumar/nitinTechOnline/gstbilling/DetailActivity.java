@@ -29,6 +29,17 @@ import android.widget.Toast;
 import com.kumar.nitinTechOnline.gstbilling.data.GSTBillingContract;
 import com.kumar.nitinTechOnline.gstbilling.utils.NumberToWord;
 
+
+
+
+
+
+
+
+
+
+
+
 public class DetailActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final int DETAIL_LOADER_ID = 44;
