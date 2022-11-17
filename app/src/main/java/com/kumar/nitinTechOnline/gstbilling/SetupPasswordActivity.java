@@ -22,12 +22,6 @@ public class SetupPasswordActivity extends AppCompatActivity {
     EditText confirmPass;
     Button setupPass;
 
-
-
-
-
-
-    
     public static final String SETUP_BUSINESS_NAME_KEY = "setup-business-name-key";
     public static final String SETUP_BUSINESS_ADDRESS_KEY = "setup-business-address-key";
     public static final String SETUP_BUSINESS_CONTACT_KEY = "setup-business-contact-key";
@@ -53,7 +47,7 @@ public class SetupPasswordActivity extends AppCompatActivity {
                 String businessContactValue = businessContact.getText().toString();
                 String newPassword = newPass.getText().toString();
                 String confirmPassword = confirmPass.getText().toString();
-                if(newPassword.equals(confirmPassword)){
+                if (newPassword.equals(confirmPassword)) {
                     SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(SetupPasswordActivity.this);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString(SETUP_BUSINESS_NAME_KEY, businessNameValue);
@@ -66,11 +60,10 @@ public class SetupPasswordActivity extends AppCompatActivity {
                     startActivity(new Intent(SetupPasswordActivity.this, BillsActivity.class));
 
                     finish();
-                }else {
+                } else {
                     Toast.makeText(getApplicationContext(), getString(R.string.setup_password_error), Toast.LENGTH_SHORT).show();
                 }
             }
         });
     }
-
 }

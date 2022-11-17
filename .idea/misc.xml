@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/drawable/bill_item_selector.xml" value="0.124" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/layout/activity_bills.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/layout/activity_detail.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/layout/activity_new_bill.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/layout/activity_setup_password.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/layout/single_item_detail_layout.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/layout/single_item_pdf_layout.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/menu/menu_bill.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/android-app/app/src/main/res/menu/menu_bills_list.xml" value="0.11302083333333333" />
+      </map>
+    </option>
   </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />

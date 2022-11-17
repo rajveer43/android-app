@@ -13,10 +13,6 @@ import android.support.annotation.Nullable;
 
 import com.kumar.nitinTechOnline.gstbilling.NewBillActivity;
 
-/**
- * Created by Ajay on 7/23/2017.
- */
-
 public class GSTBillingContentProvider extends ContentProvider {
 
     public static final int BILLS = 100;
