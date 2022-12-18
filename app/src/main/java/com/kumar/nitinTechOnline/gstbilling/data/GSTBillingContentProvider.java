@@ -29,8 +29,8 @@ public class GSTBillingContentProvider extends ContentProvider {
         return uriMatcher;
     }
 
+//    private GSTBillingDbHelper mBillingDbHelper;
     private GSTBillingDbHelper mBillingDbHelper;
-
     @Override
     public boolean onCreate() {
         Context context = getContext();

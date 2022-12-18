@@ -105,9 +105,12 @@ public class SavePDFAdapter extends RecyclerView.Adapter<SavePDFAdapter.SavePDFH
             ratePdf = (TextView) itemView.findViewById(R.id.pdf_rate);
             qtyPdf = (TextView) itemView.findViewById(R.id.pdf_qty);
             taxableValuePdf = (TextView) itemView.findViewById(R.id.pdf_taxable_value);
+
             taxSlabPdf = (TextView) itemView.findViewById(R.id.pdf_tax_slab);
             cgstPdf = (TextView) itemView.findViewById(R.id.pdf_cgst);
+//            sgstPdf = (TextView) itemView.findViewById(R.id.pdf_sgst);
             sgstPdf = (TextView) itemView.findViewById(R.id.pdf_sgst);
+
         }
     }
 }

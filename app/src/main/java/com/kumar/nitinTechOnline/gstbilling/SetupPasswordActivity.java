@@ -48,6 +48,7 @@ public class SetupPasswordActivity extends AppCompatActivity {
                 String newPassword = newPass.getText().toString();
                 String confirmPassword = confirmPass.getText().toString();
                 if (newPassword.equals(confirmPassword)) {
+//                    SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(SetupPasswordActivity.this);
                     SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(SetupPasswordActivity.this);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString(SETUP_BUSINESS_NAME_KEY, businessNameValue);
@@ -62,6 +63,7 @@ public class SetupPasswordActivity extends AppCompatActivity {
                     finish();
                 } else {
                     Toast.makeText(getApplicationContext(), getString(R.string.setup_password_error), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), getString(R.string.setup_confirm_password), Toast.LENGTH_LONG).show();
                 }
             }
         });
